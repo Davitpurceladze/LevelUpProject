@@ -1,5 +1,5 @@
 <template>
-  hello there
+  <RouterView></RouterView>
 </template>
 
 <script setup>
