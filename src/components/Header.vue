@@ -34,10 +34,6 @@
 .sign-in{
   display: none;
 }
-header {
-  width: 70%;
-  margin: 30px 15% 0;
-}
 .paragraph1 {
   display: none;
 }
