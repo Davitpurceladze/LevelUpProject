@@ -1,14 +1,14 @@
 <template>
   <div class="tabs">
-    <div  class="tab active">
+    <div  class="tab " :class="{active: activeRoute === 'CashGame' }" @click="changeRoute('CashGame')">
       <div class="isDate">1-29 აპრილი</div>
       <div class="isName"> Cash Game</div>
     </div>
-    <div class="tab">
+    <div class="tab" :class="{active: activeRoute === 'SpringSeries' }" @click="changeRoute('SpringSeries')">
       <div class="isDate">13-29 აპრილი</div>
       <div class="isName "> Spring Series</div>
     </div>
-    <div class="tab">
+    <div class="tab" :class="{active: activeRoute === 'FinalStage' }" @click="changeRoute('FinalStage')">
       <div class="isDate">30 აპრილი</div>
       <div class="isName "> Final Stage</div>
     </div>
@@ -16,6 +16,17 @@
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router';
+import { ref } from 'vue';
+
+const activeRoute = ref('CashGame')
+const router = useRouter()
+
+const changeRoute = function(str){
+    router.push(str)
+    activeRoute.value = str
+    
+}
 
 </script>
 
@@ -30,6 +41,9 @@
   height: 4.5rem;
   background-color: #2C3234;
   border-radius: 12pt;
+}
+.tab:hover {
+  cursor: pointer;
 }
 .tab {
   padding: 1rem 5.5rem
@@ -60,6 +74,9 @@
   background-color: #EF5A21;
   transform: scaleY(1.3) scaleX(1.2);
   border-radius: 8pt;
+}
+.tab:hover {
+  cursor: pointer;
 }
 .tab {
   padding: 0.8rem 0.8rem;
