@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card"  >
     <hr class="line">
     <slot></slot>
   </div>
@@ -13,13 +13,13 @@
 
 .line {
   position: absolute;
-  display: block;
+  display: flex;
+  align-self: flex-start;
   height: 4px;
-  margin-bottom: 4rem;
-  margin-top: 4px;
+  margin: 0px;
   background-color: #EF5A21;
   width: 30%;
-  border: 4px;
+  border: none;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
@@ -28,7 +28,6 @@
   justify-content: center;
   align-items: center;
   margin: 2rem 1rem;
-  height: 4rem;
   border-radius: 16pt;
   background-color: #2C3234;
 }
