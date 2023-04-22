@@ -27,15 +27,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem 1rem;
+  /* margin: 2rem 1rem; */
   border-radius: 16pt;
   background-color: #2C3234;
 }
 
-@media (min-width: 401px) {
+/* @media (min-width: 401px) {
   .card {
     margin: 2rem 3rem
   }
-}
+} */
 
 </style>
