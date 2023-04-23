@@ -22,6 +22,7 @@
   border: none;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
+  box-shadow: 0 0 10px #EF5A21;
 }
 .card {
   display: flex;
