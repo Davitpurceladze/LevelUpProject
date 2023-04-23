@@ -3,12 +3,14 @@
     <Header></Header>
     <NavBar></NavBar>
     <RouterView></RouterView>
+    <Rules></Rules>
   </div>
 </template>
 
 <script setup>
 import Header from '../components/Header.vue';
 import NavBar from '../components/NavBar.vue';
+import Rules from '../components/Rules.vue'
 </script>
 
 <style scoped>
