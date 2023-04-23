@@ -12,18 +12,13 @@
           <div class="bodyTitle-voucher"> <img class="bodyTitle-voucher-img" src="../../assets/gift.png" alt="gift"  ><span>ვაუჩერი</span> </div>
           <div>პრიზი</div>
         </div>
-        <div class="table-items">
-          
-          <div class="table-item">1</div>
-          <div class="table-item">2</div>
-          <div class="table-item">3</div>
-          <div class="table-item">4</div>
-          <div class="table-item">5</div>
-          <div class="table-item">6</div>
-
-          
-
+        <div class="table-items"   >
+            <TableItem class="table-item" v-for="i in 20" ></TableItem>
         </div>
+        <div>some divs</div>
+        <div>some divs</div>
+        <div>some divs</div>
+
       </div>
     </div>
   </div>
@@ -31,10 +26,23 @@
 
 <script setup>
 import BaseCard from '../../components/BaseCard.vue';
+import TableItem from '../../components/TableItem.vue'
  
 </script>
 
 <style scoped>
+.table-item {
+  position:relative;
+  margin: 0.3rem 1rem 0.3rem 1rem;
+}
+ 
+ 
+.table-items {
+  position: relative;
+  height: 22rem;
+  overflow: auto;
+
+}
 .isTopBox {
   color: white;
   font-size: 16pt;
@@ -64,9 +72,11 @@ import BaseCard from '../../components/BaseCard.vue';
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   color: #7D7D7D;
   font-family: November GeLC;
   font-size: 12pt;
+  height: 2rem;
 }
 .bodyTitle-voucher {
   display: flex;
@@ -107,6 +117,9 @@ import BaseCard from '../../components/BaseCard.vue';
     margin: 0rem 1.5rem 1rem 1.5rem;
     background-color: #25292B;
     border-radius: 12pt;
+  }
+  .bodyTitle {
+    height: 3rem;
   }
 }
 </style>
