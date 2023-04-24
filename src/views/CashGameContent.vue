@@ -41,7 +41,7 @@ import BaseCard from '../components/BaseCard.vue';
 }
 
  
-@media (min-width: 401px) {
+@media (min-width: 577px) {
   .isTournamentInfo {
     margin: 2rem 3rem 2rem 3rem;
   }

@@ -77,13 +77,13 @@ import PrizeContainer from './PrizeContainer.vue'
   border-radius: 16pt;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 576px) {
   .isTopBoxBaseCard{
   height: 4rem;
   }
 }
 
-@media (min-width: 401px) {
+@media (min-width: 577px) {
   .isLeaderBox, .isBody {
   border-right: 4pt solid;
   border-left: 4pt solid;

@@ -52,7 +52,7 @@
   font-family: November GeLC;
 }
 
-@media (min-width: 401px) {
+@media (min-width: 576px) {
   .itemPrize {
     margin-left: 35%;
   }

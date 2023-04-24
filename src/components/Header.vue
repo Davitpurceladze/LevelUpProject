@@ -30,7 +30,7 @@
 
 <style scoped>
 
-@media (min-width: 401px) {
+@media (min-width: 577px) {
 .sign-in{
   display: none;
 }
@@ -54,7 +54,7 @@ opacity: 90%;
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 576px) {
 .slots {
   background-color: #25292B;
   color: white;

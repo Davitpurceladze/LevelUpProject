@@ -89,7 +89,7 @@ function showRule(n) {
   margin: 2rem 1rem 2rem 1rem
 }
 
-@media (min-width: 401px) {
+@media (min-width: 576px) {
   .isRulesContainer{
     margin: 2rem 3rem 2rem 3rem
   }

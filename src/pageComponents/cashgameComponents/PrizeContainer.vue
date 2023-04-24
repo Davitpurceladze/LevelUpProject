@@ -42,7 +42,7 @@ import PrizeCard from '../../components/PrizeCard.vue'
 }
  
 
-@media (min-width: 401px){
+@media (min-width: 577px){
   .prize-container {
     transform: scaleX(0.9) scaleY(0.9);
     background-color: #25292B;

@@ -49,7 +49,7 @@ import TableItem from '../../components/TableItem.vue'
   margin-right: 0.3rem;
 }
 
-@media (min-width: 401px) {
+@media (min-width: 577px) {
   .TitleAndTableWrapper{
     margin: 0rem 1.5rem 1rem 1.5rem;
     background-color: #25292B;

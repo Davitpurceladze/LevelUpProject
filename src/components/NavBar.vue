@@ -31,7 +31,7 @@ const changeRoute = function(str){
 </script>
 
 <style scoped>
-@media (min-width: 401px) {
+@media (min-width: 577px) {
 .tabs {
   display: flex;
   flex-direction: row;
@@ -69,7 +69,7 @@ const changeRoute = function(str){
 }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 576px) {
 .active {
   background-color: #EF5A21;
   transform: scaleY(1.3) scaleX(1.2);
