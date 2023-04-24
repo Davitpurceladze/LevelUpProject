@@ -75,7 +75,7 @@ const changeRoute = function(str){
 }
 
 
-@media (max-width: 399px) {
+@media (max-width: 400px) {
   .active {
     background-color: #EF5A21;
     border-radius: 8pt;
