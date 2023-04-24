@@ -35,24 +35,28 @@ const changeRoute = function(str){
 .tabs {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 2rem 3rem;
   height: 4.5rem;
   background-color: #2C3234;
   border-radius: 12pt;
+  padding: 0 2rem;
 }
 .tab:hover {
   cursor: pointer;
 }
 .tab {
-  padding: 1rem 5.5rem
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+ 
 .isName{
   font-size: 14pt;
   color: #FFFFFF;
   opacity: 80%;
-
 }
 .isDate{
   font-size: 10pt;
@@ -63,9 +67,10 @@ const changeRoute = function(str){
 }
 .active {
   background-color: #EF5A21;
-  transform: scaleY(1.3) scaleX(1.2);
+  transform: scaleY(1.2) scaleX(1.2);
   border-radius: 12pt;
-
+  width: 35%;
+  height: 90%;
 }
 }
 
