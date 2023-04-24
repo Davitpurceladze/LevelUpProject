@@ -14,12 +14,6 @@
           <img class="carousel3" src="../assets/carousel3.png" alt="carousel3">
         </div>
       </slide>
-
-      <!-- <template #addons> -->
-        <!-- <navigation/> -->
-        <!-- <navigation/> -->
-
-      <!-- </template> -->
     </carousel>
   </div>
 
@@ -58,13 +52,11 @@ let breakpoint = ref({
   font-size: 18pt;
 }
  
- 
 .carousel__item {
   height: 180px;
   width: 150px;
   display: flex;
 }
-
  
 .carouselDiv3 {
   position: absolute;
@@ -80,16 +72,11 @@ let breakpoint = ref({
   width: 154.1px;
   background: linear-gradient(to top, #0D649B, #0D649BE8, #0D649B00);
 }
- 
- 
- 
-
-
 .isCarouselContainer {
   margin: 2rem 1rem 2rem 1rem;
 }   
 
- @media (min-width: 576px) {
+@media (min-width: 576px) {
   .isCarouselContainer {
     margin: 2rem 3rem 2rem 3rem
 

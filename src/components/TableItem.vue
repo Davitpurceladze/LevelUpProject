@@ -60,7 +60,4 @@
     margin-left: 25%;
   }
 }
- 
-
-
 </style>
