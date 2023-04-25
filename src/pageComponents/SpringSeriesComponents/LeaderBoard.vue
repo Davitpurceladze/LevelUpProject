@@ -14,7 +14,7 @@
       <TitleandTableWrapper></TitleandTableWrapper>
       <PrizeContainer></PrizeContainer>
       <div>
-      <p class="leaderBoardResults">*ლიდერბორდის შედეგები განახლდება <a class="pokerLoby" href="pokerLoby">პოკერის ლობიში</a></p>
+      <p class="leaderBoardResults">*ლიდერბორდის შედეგები განახლდება <a class="pokerLoby" href="">პოკერის ლობიში</a></p>
       </div>
       <div   class="leaderBoardScoresInfoContainer">
         <p class="leaderBoardScoresInfo">
