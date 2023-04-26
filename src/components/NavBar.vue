@@ -29,13 +29,10 @@ const changeRoute = function(str){
 
 }
 
-
 onMounted(() =>{
   let activeClass = localStorage.getItem('activeClass')
   activeRoute.value = activeClass
 })
-
- 
 
 </script>
 
@@ -83,14 +80,12 @@ onMounted(() =>{
   }
 }
 
-
 @media (max-width: 400px) {
   .active {
     background-color: #EF5A21;
     border-radius: 8pt;
   }
 }
-
 
 @media (min-width: 401px) and (max-width:576px){
   .active {

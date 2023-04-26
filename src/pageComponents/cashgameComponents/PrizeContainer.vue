@@ -40,7 +40,12 @@ import PrizeCard from '../../components/PrizeCard.vue'
   font-family: November GeLC;
   color: #FFFFFF;
 }
- 
+
+@media (max-width: 400px) {
+  .prize-text{
+    font-size: 10pt;
+  }
+}
 
 @media (min-width: 577px){
   .prize-container {

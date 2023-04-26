@@ -56,7 +56,7 @@ function showRule(n) {
   color: #BBBBBB;
   margin: 0.5rem 1rem;
   font-family: HelveticaNeue;
-  font-size: 12;
+  font-size: 12pt;
 }
 .rule1, .rule2, .rule3:hover {
   cursor: pointer;
@@ -87,6 +87,12 @@ function showRule(n) {
 }
 .isRulesContainer{
   margin: 2rem 1rem 2rem 1rem
+}
+
+@media (max-width: 360px){
+  .isRules div{
+    font-size: 11pt;
+  }
 }
 
 @media (min-width: 576px) {

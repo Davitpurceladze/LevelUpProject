@@ -16,7 +16,6 @@
   flex-direction: row;
   align-items: center;
   background-color: #1E2122;
-  /* margin: 0.7rem; */
   height: 3rem;
   border: 2pt solid #2C3234;
   border-radius: 12pt;

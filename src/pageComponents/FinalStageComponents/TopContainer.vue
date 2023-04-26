@@ -230,6 +230,7 @@ import PrizeCard from '../../components/PrizeCard.vue';
 .mainContainer {
   margin: 2rem 1rem 2rem 1rem;
 }
+
 @media (min-width: 576px) {
   .topContrainerFestivalWrapper{
     display: flex;

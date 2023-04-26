@@ -145,6 +145,16 @@ import BaseCard from '../../components/BaseCard.vue';
   
 }
 
+@media (max-width: 380px){
+  .mediumBoxName{
+    font-size: 13pt;
+  }
+
+  .largeBoxP1{
+    font-size: 9pt;
+  }
+}
+
 @media (min-width:577px) {
   .mainContainer {
   margin: 2rem 3rem 2rem 3rem;

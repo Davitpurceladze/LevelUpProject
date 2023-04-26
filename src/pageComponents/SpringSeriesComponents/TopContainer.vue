@@ -2,7 +2,6 @@
   <BaseCard class="isBaseCard">
     <div class="cardWrapper">
       <div class="isTitle">ტურნირები და სატელიტები</div>
-
       <div> 
         <div class="imgWrapper">
           <div class="imgTitle">
@@ -23,35 +22,30 @@
           <div class="isPokerLoby">პოკერის ლობი</div>
         </div>
       </div>
-
-
     </div>
-
-    
     <div class="cardWrapperForDesktop">
       <div class="isTitleDesktop">ტურნირები და სატელიტები</div>
       <div class="wrapperContainer"> 
-      <img class="hiddenIconLeft" src="../../assets/promo-left-img.png" alt="leftIcon">
-      
-      <div> 
-        <div class="imgWrapper">
-          <div class="imgTitle">
-            <div class="imgTitle1">სერიის ფარგლებში, ყოველდღიურად</div>
-            <div class="imgTitle2">გაიმართება 3 ივენთი:</div>  
+        <img class="hiddenIconLeft" src="../../assets/promo-left-img.png" alt="leftIcon">
+        <div> 
+          <div class="imgWrapper">
+            <div class="imgTitle">
+              <div class="imgTitle1">სერიის ფარგლებში, ყოველდღიურად</div>
+              <div class="imgTitle2">გაიმართება 3 ივენთი:</div>  
+            </div>
+            <div class="isImage">
+              <img class="isTournamentTime" src="../../assets/tournamentTime.40eae8e5.png" alt="tournamentTime">
+            </div>
           </div>
-          <div class="isImage">
-            <img class="isTournamentTime" src="../../assets/tournamentTime.40eae8e5.png" alt="tournamentTime">
+          <div class="isInfo">
+            <div>* ყველა ტურნირზე მოხვედრა შესაძლებელია</div>
+            <div class="isInfo1">0 ლარიდან.</div>
+            <div>ტურნირების სრული განრიგის სანახავად</div>
+            <div class="isInfo2">გადადი პოკერის ლობიში</div>
+            <div class="isPokerLoby">პოკერის ლობი</div>
           </div>
         </div>
-        <div class="isInfo">
-          <div>* ყველა ტურნირზე მოხვედრა შესაძლებელია</div>
-          <div class="isInfo1">0 ლარიდან.</div>
-          <div>ტურნირების სრული განრიგის სანახავად</div>
-          <div class="isInfo2">გადადი პოკერის ლობიში</div>
-          <div class="isPokerLoby">პოკერის ლობი</div>
-        </div>
-      </div>
-      <img  class="hiddenIconRight" src="../../assets/promo-right-img.png" alt="rightIcon">
+        <img  class="hiddenIconRight" src="../../assets/promo-right-img.png" alt="rightIcon">
       </div>
     </div>
      

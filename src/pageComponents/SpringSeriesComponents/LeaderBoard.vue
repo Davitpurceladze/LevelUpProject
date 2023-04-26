@@ -86,6 +86,16 @@ import PrizeContainer from '../cashgameComponents/PrizeContainer.vue';
   border-radius: 16pt;
 }
 
+@media (max-width: 430px){
+  .leaderBoardResults{
+    font-size: 11pt;
+  }
+
+  .leaderBoardScoresInfo{
+    font-size: 10pt;
+  }
+}
+
 @media (max-width: 576px) {
   .topBaseCard{
   display: flex;
@@ -96,6 +106,7 @@ import PrizeContainer from '../cashgameComponents/PrizeContainer.vue';
   .leaderBoardScoresInfoContainer{
     padding-bottom: 1.5rem;
   }
+   
 }
 
 @media (min-width: 577px) {

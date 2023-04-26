@@ -15,7 +15,7 @@
       <TitleandTableWrapper></TitleandTableWrapper>
       <PrizeContainer></PrizeContainer>
       <div class="isPokerLoby">
-        <p>* ლიდერბორდის შედეგები განახლდება <a class="isLoby" href="/">პოკერის ლობიში</a></p>
+        <p >* ლიდერბორდის შედეგები განახლდება <a class="isLoby" href="/">პოკერის ლობიში</a></p>
       </div>
     </div>
   </div>
@@ -29,7 +29,6 @@ import PrizeContainer from './PrizeContainer.vue'
 </script>
 
 <style scoped>
-/* poker loby */
 .isPokerLoby{
   font-size: 13pt;
   color: #FFFFFF;
@@ -38,8 +37,6 @@ import PrizeContainer from './PrizeContainer.vue'
   color: #EF5A21;
 }
 
-
-/* leaderboard title */
 .isLeaderBox, .isSecondLeaderBox {
   color:#FFFFFF;
   font-weight: bold;
@@ -57,8 +54,6 @@ import PrizeContainer from './PrizeContainer.vue'
   margin-left: 0.6rem;
 }
 
-
-/* top baseCard */
 .isTopBox {
   color: white;
   font-size: 16pt;
@@ -66,8 +61,6 @@ import PrizeContainer from './PrizeContainer.vue'
   font-weight: bold;
 }
 
-
-/* main container */
 .isCashGameContainer {
   display: flex;
   flex-direction: column;
@@ -81,6 +74,7 @@ import PrizeContainer from './PrizeContainer.vue'
   .isTopBoxBaseCard{
   height: 4rem;
   }
+   
 }
 
 @media (min-width: 577px) {
