@@ -17,7 +17,7 @@
 
 <script setup>
 import { useRouter } from 'vue-router';
-import { ref } from 'vue';
+import { ref, onMounted, } from 'vue';
 
 const activeRoute = ref('CashGame')
 const router = useRouter()
@@ -25,8 +25,17 @@ const router = useRouter()
 const changeRoute = function(str){
     router.push(str)
     activeRoute.value = str
-    
+    localStorage.setItem('activeClass', str)
+
 }
+
+
+onMounted(() =>{
+  let activeClass = localStorage.getItem('activeClass')
+  activeRoute.value = activeClass
+})
+
+ 
 
 </script>
 

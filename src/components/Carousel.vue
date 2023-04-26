@@ -25,6 +25,9 @@ import { Carousel, Slide,  Navigation} from 'vue3-carousel'
 import {ref} from 'vue'
 
 let breakpoint = ref({
+  300: {
+    itemsToShow: 1.9
+  },
   400: {
     itemsToShow: 2.1,
   },
